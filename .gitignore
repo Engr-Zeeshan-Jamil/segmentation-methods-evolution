@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/
+results/
+
+*.pth
+*.tar
+*.zip
+
+.vscode/
+.DS_Store
+VOC2012_test/
+VOC2012_train_val/
