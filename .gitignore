@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 
 data/
-results/
+# results/
 
 *.pth
 *.tar
