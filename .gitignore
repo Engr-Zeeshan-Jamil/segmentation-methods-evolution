@@ -13,3 +13,20 @@ data/
 .DS_Store
 VOC2012_test/
 VOC2012_train_val/
+# Virtual environment
+.venv/
+
+# Dataset folders
+data/
+VOC2012_test/
+VOC2012_train_val/
+
+# Result folders
+results/
+
+
+# Model checkpoints
+*.pth
+
+# Ignore old evaluation script
+evaluate_segmentation.py
