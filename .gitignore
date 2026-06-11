@@ -1,18 +1,3 @@
-.venv/
-__pycache__/
-*.pyc
-
-data/
-# results/
-
-*.pth
-*.tar
-*.zip
-
-.vscode/
-.DS_Store
-VOC2012_test/
-VOC2012_train_val/
 # Virtual environment
 .venv/
 
@@ -21,12 +6,18 @@ data/
 VOC2012_test/
 VOC2012_train_val/
 
-# Result folders
-results/
-
-
 # Model checkpoints
 *.pth
 
+# Ignore old result folder
+results/
+
+# Keep final results folder in GitHub
+# results_final/ is intentionally NOT ignored
+
 # Ignore old evaluation script
 evaluate_segmentation.py
+
+# Python cache
+__pycache__/
+*.pyc
